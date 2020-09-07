@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 네브바 페이지 가운데 고정은 어떻게 해야할까요? */
+/* 노마드코더 위치 한 번 더 듣기 */
+        .nav {
+            height: 40px;
+            width: 850;
+        }
+
+        .nav ul li {
+            list-style: none;
+            color: white;
+            background-color: #BBDEFB;
+            float: left;
+            line-height: 40px;
+            vertical-align: middle;
+            text-align: center;
+        }
+        
+        .nav .nav_list_link {
+            text-decoration: none;
+            color: white;
+            display: block;
+            width: 250px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        .nav .nav_list_link:hover {
+            color: white;
+            opacity: 0.7;
+        }
+        
+        .text {
+            color: black;
+            display: center;
+        }
