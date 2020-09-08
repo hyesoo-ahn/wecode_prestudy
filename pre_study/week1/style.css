@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
-/* 네브바 페이지 가운데 고정은 어떻게 해야할까요? */
+/* 네브바 페이지 가운데 고정은 어떻게 해야할까요? --> fix 속성을 준다! */
 /* 노마드코더 위치 한 번 더 듣기 */
+ 
+
+
 
 nav {
     position: fixed;
@@ -17,7 +20,7 @@ nav {
         .nav ul li {
             list-style: none;
             color: white;
-            background-color: #BBDEFB;
+            background-color: #829BBF;
             float: left;
             line-height: 40px;
             vertical-align: middle;
@@ -32,6 +35,7 @@ nav {
             width: 350px;
             font-size: 15px;
             font-weight: bold;
+            
         }
         
         .nav .nav_list_link:hover {
@@ -44,38 +48,30 @@ nav {
             text-align: center;
             /* font-weight: lighter; */
             padding: 150px 0  30px 0;
-            color: gray;
+            color: #BBDEFB;
             font-size: 20px;
             font-weight: lighter;
+           
         }
         
 .h {
-    font-weight: bold;
-    font-size: 45px;
+    font-size: 30px;
+    color: #BBDEFB;
+    
 }
-
-
 .t1 {
     font-size: 30px;
-    font-weight: bold;
-    color: #95c9f4;
+    color: #BBDEFB;
 }
 .t2{
-font-size: 25px;
-/* font-weight: bold; */
-color: #95c9f4;
+font-size: 35px;
+color: white;
+font-weight: bold;
 }
 
-.t4{
-    font-size: 25px;
-    /* font-weight: bold; */
-     color: #95c9f4;
-}
-
-.t8{
-    font-size: 25px;
-    /* font-weight: bold; */
-    color: #95c9f4;
+.t3{
+    font-size: 35px;
+     color: white;
 }
 
 
@@ -89,5 +85,3 @@ img {
 .img2 {
     padding: 200px 0 0 0;
 }
-
-        
