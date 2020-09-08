@@ -2,9 +2,16 @@
 
 /* 네브바 페이지 가운데 고정은 어떻게 해야할까요? */
 /* 노마드코더 위치 한 번 더 듣기 */
+
+nav {
+    position: fixed;
+}
+
         .nav {
             height: 40px;
             width: 850;
+            margin: 0px;
+           
         }
 
         .nav ul li {
@@ -15,13 +22,14 @@
             line-height: 40px;
             vertical-align: middle;
             text-align: center;
+            
         }
         
         .nav .nav_list_link {
             text-decoration: none;
             color: white;
             display: block;
-            width: 250px;
+            width: 350px;
             font-size: 15px;
             font-weight: bold;
         }
@@ -31,7 +39,55 @@
             opacity: 0.7;
         }
         
-        .text {
-            color: black;
-            display: center;
+
+        .main_text {
+            text-align: center;
+            /* font-weight: lighter; */
+            padding: 150px 0  30px 0;
+            color: gray;
+            font-size: 20px;
+            font-weight: lighter;
         }
+        
+.h {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.t1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #95c9f4;
+}
+.t2{
+font-size: 25px;
+/* font-weight: bold; */
+color: #95c9f4;
+}
+
+.t4{
+    font-size: 25px;
+    /* font-weight: bold; */
+     color: #95c9f4;
+}
+
+.t8{
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: #95c9f4;
+}
+
+
+img {
+    max-width:60%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+.img2 {
+    padding: 200px 0 0 0;
+}
+
+        
