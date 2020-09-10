@@ -5,24 +5,18 @@
  
 
 
-
+/* nav바 만들기 */
 nav {
-    position: fixed;
+    display: flex;
+    background-color:  #829BBF;
 }
-
-        .nav {
-            height: 40px;
-            width: 850;
-            margin: 0px;
-           
-        }
 
         .nav ul li {
             list-style: none;
             color: white;
             background-color: #829BBF;
             float: left;
-            line-height: 40px;
+            line-height: 10px;
             vertical-align: middle;
             text-align: center;
             
@@ -32,9 +26,10 @@ nav {
             text-decoration: none;
             color: white;
             display: block;
-            width: 350px;
+            width: 400px;
             font-size: 15px;
             font-weight: bold;
+            text-align: center;
             
         }
         
@@ -44,6 +39,7 @@ nav {
         }
         
 
+/* header style */
         .main_text {
             text-align: center;
             /* font-weight: lighter; */
@@ -53,8 +49,10 @@ nav {
             font-weight: lighter;
            
         }
+       
         
-.h {
+/* font style */
+/* .h {
     font-size: 30px;
     color: #BBDEFB;
     
@@ -72,10 +70,10 @@ font-weight: bold;
 .t3{
     font-size: 35px;
      color: white;
-}
+} */
 
 
-img {
+/* img {
     max-width:60%;
     height: auto;
     display: block;
@@ -84,4 +82,4 @@ img {
 
 .img2 {
     padding: 200px 0 0 0;
-}
+} */
