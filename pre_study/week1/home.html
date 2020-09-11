@@ -8,6 +8,8 @@
 
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- 구글 웹폰트 임포트 -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet"> -->
 
     <style>
         body {
@@ -18,71 +20,47 @@
         }
 
         header {
-            height: 230px;
+            height: 350px;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             color: #BBDEFB;
-            font-size: 35px;
+            font-size: 32px;
             font-weight: lighter;
+            /* font-family: 'Noto Sans KR', sans-serif; */
+            font-style: italic;
+        }
+
+        #text2 {
+            font-size: 40px;
+            font-weight: 450;
+            color: #e8ebf2;
         }
     </style>
 </head>
 
 <body>
-    <nav class="nav">
-        <ul class="nav_list">
-            <li class="nav_list_item">
-                <a href="home.html" class="nav_list_link"> HOME </a></li>
-            <li class="nav_list_item">
-                <a href="about.html" class="nav_list_link"> ABOUT </a></li>
-            <li class="nav_list_item">
-                <a href="favorites.html" class="nav_list_link"> FAVORITES </a></li>
-        </ul>
+
+    <!-- nav바 -->
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="favorites.html">FAVORITES</a>
+
+
     </nav>
 
 
-
     <header>
-        &lt;dog&gt; 안녕하세요, 꼬미언니 안혜수입니다! &lt;/dog&gt;
+        <!-- &lt;dog&gt; 안녕하세요, 꼬미언니 안혜수입니다! &lt;/dog&gt; -->
+        <span class="text">&lt;dog&gt; 안녕하세요,&nbsp;&nbsp;</span>
+        <span class="text" id="text2">꼬미언니 안혜수</span>
+        <span class="text">입니다! &lt;/dog&gt;</span>
     </header>
 
-    <!-- <div class="page1">
-        <div class="main_text">
-            <span class="h">
-                &lt;dog&gt;
-            </span>
-            <span class="t1">
-                안녕하세요!
-            </span>
-            <span class="t2">
-                꼬미언니
-            </span>
-            <span class="t3">
-                안혜수
-            </span>
-            <span class="t4">
-                입니다.
-            </span>
-            <span class="h">
-                &lt;/dog&gt;
-            </span>
 
-        </div> -->
-
-
-    <!-- <div class="img1">
-            <img src="hs with kkom2.jpeg">
-        </div> -->
     </div>
 
-    <!-- <div class="page2">
-        <div class="img2">
-            <img src="about2.jpeg">
-
-        </div>
-    </div> -->
 </body>
 
 </html>

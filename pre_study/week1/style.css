@@ -1,14 +1,15 @@
 @charset "UTF-8";
 
-/* 네브바 페이지 가운데 고정은 어떻게 해야할까요? --> fix 속성을 준다! */
+/* 네브바 페이지 가운데 고정은 어떻게 해야할까요? --> position: fixd 속성을 준다! */
 /* 노마드코더 위치 한 번 더 듣기 */
  
 
 
 /* nav바 만들기 */
-nav {
+/* nav {
     display: flex;
     background-color:  #829BBF;
+    
 }
 
         .nav ul li {
@@ -36,50 +37,31 @@ nav {
         .nav .nav_list_link:hover {
             color: white;
             opacity: 0.7;
-        }
-        
+        } */
 
-/* header style */
-        .main_text {
+        nav {
+            display: flex;
+            background-color: black;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #829BBF;
+            font-weight: bold;
+            
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            position: fixed;
+        }
+
+        nav a {
+            color: white;
+            padding: 13px 10px;
+            text-decoration: none;
             text-align: center;
-            /* font-weight: lighter; */
-            padding: 150px 0  30px 0;
-            color: #BBDEFB;
-            font-size: 20px;
-            font-weight: lighter;
-           
+
         }
-       
-        
-/* font style */
-/* .h {
-    font-size: 30px;
-    color: #BBDEFB;
-    
-}
-.t1 {
-    font-size: 30px;
-    color: #BBDEFB;
-}
-.t2{
-font-size: 35px;
-color: white;
-font-weight: bold;
-}
 
-.t3{
-    font-size: 35px;
-     color: white;
-} */
-
-
-/* img {
-    max-width:60%;
-    height: auto;
-    display: block;
-    margin: 0px auto;
-}
-
-.img2 {
-    padding: 200px 0 0 0;
-} */
+        nav a:hover {
+            background-color: none;
+            opacity: 0.4;
+        }
