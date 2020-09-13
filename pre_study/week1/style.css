@@ -51,6 +51,8 @@
             left: 10px;
             right: 10px;
             position: fixed;
+
+            /* flex박스와 position: fixed 동시에 주기(위치 설정 해줘야된다.ㄴ) */
         }
 
         nav a {
